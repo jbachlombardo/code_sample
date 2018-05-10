@@ -18,7 +18,7 @@ It demonstrates:
 
   -Using timeseries for analysis and resampling timeseries
 
-The data (sourced from the Hubway and IRS websites) is contained in the file <a href="http://bit.ly/2G4s7Ht">here</a>. It spans 38 csv's containing individual trip data, the Hubway station location csv, and a csv from the IRS containing zipcode-level data on income.
+The data (sourced from the Hubway and IRS websites) is contained in the Google Drive folder <a href="http://bit.ly/2G4s7Ht">here</a>. It spans 38 csv's containing individual trip data, the Hubway station location csv, and a csv from the IRS containing zipcode-level data on income.
 
 The next step in this project would be to source American Community Survey-style commute data for the Boston area.
 
