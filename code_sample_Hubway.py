@@ -41,7 +41,7 @@ stat_inc_scatter = stations_income.groupby('zipcode').agg({'Station ID': 'count'
 print ('I was curious if there was a pattern to the distribution of the Hubway network, similar to what has been seen in the layout of bus networks across the country.')
 print ('Based on the current station network, there does not appear to be a pattern.')
 print ('Number of Hubway stations by zipcode, sorted by average income per zipcode:')
-print (stat_inc_scatter.sort_values(by = 'avg_income', ascending = False))
+stat_inc_scatter.sort_values(by = 'avg_income', ascending = False)
 
 #CALCULATE LINE OF BEST FIT FOR SCATTERPLOT
 s, i = np.polyfit(stat_inc_scatter['avg_income'], stat_inc_scatter['# of stations'], 1)
