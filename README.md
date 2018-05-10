@@ -1,4 +1,4 @@
-# code_samples
+# code_sample
 
 This data exploration exercise is a hobby project to look at how and where Boston's bikeshare program is being used.
 
