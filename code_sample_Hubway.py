@@ -1,4 +1,4 @@
-# NOTE: As written here this is meant to be run in Jupyter Notebook. (To run in a shell print statements would need to be added to show the various tables produced by the analysis.)
+# As written here this is meant to be run in Jupyter Notebook. (To run in a shell print statements would need to be added to show the various tables produced by the analysis.)
 
 import matplotlib.pyplot as plt
 import pandas as pd
